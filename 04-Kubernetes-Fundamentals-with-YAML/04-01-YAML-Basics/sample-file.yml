@@ -3,14 +3,19 @@ person: # Dictionary
   name: kalyan
   age: 23
   city: Hyderabd
-  hobbies: # List
+
+# List
+  hobbies: 
     - cooking
     - cycling
-  friends: # Multiple lists
+
+# Multiple lists
+  friends: 
     - name: friend1
       age: 23
     - name: friend2
       age: 22
+      
 --- # YAML Document Separator
 apiVersion: v1 # String
 kind: Pod  # String
